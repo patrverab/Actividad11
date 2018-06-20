@@ -7,11 +7,11 @@
 # <li> hola </li>
 # </ul>
 
-a = 5
+a = 7
 b = ''
 
 a.times do |i|
-  if (i == 0) || (i == 4)
+  if (i == 0) || (i == 6)
     puts '</ul>'
   else
     puts b = '<li> hola </li>'
