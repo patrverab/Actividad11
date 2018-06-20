@@ -10,7 +10,10 @@
 a = 5
 b = ''
 
-a.times do
-  b = '<li> hola </li>'
+a.times do |i|
+  if (i == 0) || (i == 4)
+    puts '</ul>'
+  else
+    puts b = '<li> hola </li>'
+  end
 end
-
